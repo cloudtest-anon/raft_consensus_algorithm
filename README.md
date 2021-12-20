@@ -7,5 +7,5 @@ Raft is a consensus algorithm for managing a replicated log. Consensus algorithm
 - A leader can fail or become disconnected from the other servers, in which case a new leader is elected.
 
 
-Raft implementation can be found under raft/raft.go <br>
-This implementation is then used as to build a fault tolerant key-value storage system. Client and server is implemented under kvraft/client.go anf kvraft/server.go
+Raft implementation can be found under *raft/raft.go* <br>
+This implementation is then used as to build a fault tolerant key-value storage system. Client and server is implemented under *kvraft/client.go* and *kvraft/server.go*
